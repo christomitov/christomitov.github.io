@@ -1,0 +1,26 @@
+html, body {
+  background: black;
+  color: white !important;
+
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter";
+}
+
+p {
+  font-size: 18px;
+}
+
+ul {
+  font-size: 20px;
+}
+
+a {
+  color: white;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding-bottom:2rem;
+  text-align: center;
+  width: 100%;
+}
