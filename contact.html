@@ -23,7 +23,7 @@
                         <title>Christo Mitov</title>
         <meta property="og:title" content="Christo Mitov" />
                         <meta property="og:description" content="NFC business cards give you the power to instantly transfer data or cause any action on a smartphone. Now you can have the greatest networking, marketing and business tool, all on one streamlined card.">
-                <script src="/assets/js/jquery.min.js"></script>
+                        
                 <script src="https://use.fontawesome.com/28bf22b70c.js"></script>
         <style>
             html, body {
@@ -41,6 +41,10 @@
 
             form {
                 margin:0;
+            }
+
+            i {
+                font-size:30px !important;
             }
 
 
@@ -86,20 +90,22 @@
                 background:#000;
                 bottom:0;
                 left:0;
-                width:calc(100% - 20px);
+                text-align: center;
+                margin-top:30px;
                 padding:10px;
-                position:absolute;
+                
             }
 
             #contact-card > .button > .download {
-                display:block;
-                width:calc(100% - 30px);
-                max-width:400px;
+                display: inline-block;
+                
                 margin:0 auto;
                 text-align:center;
                 background:#177efb;
                 color:#ffffff;
-                padding:15px;
+                padding:30px;
+                margin-left: 5px;
+                margin-right: 5px;
                 border:0;
                 font-size:16px;
                 border-radius:6px;
@@ -116,11 +122,11 @@
             }
         </style> 
         <script>
-$(document).ready(function () {
-    $(".download").on("click touch", function () {
-        $(this).html("Loading...");
-    });
-});
+// $(document).ready(function () {
+//     $(".download").on("click touch", function () {
+//         $(this).html("Loading...");
+//     });
+// });
         </script>
     </head>
     <body>
@@ -161,12 +167,12 @@ $(document).ready(function () {
                 <ul>
                                     </ul>
                 <div class="button">
-                    <a href="https://app.v1ce.co.uk/api/contact-card/6g0urdpb1m3fs4iojtn97lvhke58ycx2aqzw.vcf" class="download" download>Add To Contacts <i class="fa fa-address-book" aria-hidden="true"></i>
+                    <a href="https://app.v1ce.co.uk/api/contact-card/6g0urdpb1m3fs4iojtn97lvhke58ycx2aqzw.vcf" class="download" download><i class="fa fa-address-book" aria-hidden="true"></i>
                     </a>
-                    <br/>
-                    <a href="https://www.linkedin.com/in/cmitov/" class="download">Add to LinkedIn <i class="fa-brands fa-linkedin"></i></a>
-                    <br/>
-                    <a href="https://instagram.com/prodbychristo" class="download">Add to Instagram <i class="fa-brands fa-instagram"></i></a>
+                    
+                    <a href="https://www.linkedin.com/in/cmitov/" class="download"><i class="fa fa-brands fa-linkedin"></i></a>
+                    
+                    <a href="https://instagram.com/prodbychristo" class="download"><i class="fa fa-brands fa-instagram"></i></a>
                     
                     
                 </div>
